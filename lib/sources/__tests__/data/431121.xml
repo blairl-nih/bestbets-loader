@@ -1,0 +1,45 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<cde:BestBetsCategory xsi:schemaLocation="http://www.example.org/CDESchema CDESchema.xsd" xmlns:cde="http://www.example.org/CDESchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<CategoryId>
+431121
+</CategoryId>
+<CategoryName><![CDATA[Fotos de c&aacute;ncer]]></CategoryName>
+<CategoryWeight>30</CategoryWeight>
+<IsExactMatch>
+true</IsExactMatch>
+<Language>es-us</Language>
+<Display>true</Display>
+<IncludeSynonyms><synonym IsExactMatch="false"><![CDATA[fotos]]></synonym>
+<synonym IsExactMatch="false"><![CDATA[imagenes]]></synonym>
+<synonym IsExactMatch="
+true"><![CDATA[fotos de cancer]]></synonym>
+<synonym IsExactMatch="
+true"><![CDATA[imagenes de cancer]]></synonym>
+<synonym IsExactMatch="
+true"><![CDATA[imágenes de cáncer]]></synonym>
+<synonym IsExactMatch="
+true"><![CDATA[imagenes de cáncer]]></synonym>
+<synonym IsExactMatch="
+true"><![CDATA[imágenes de cancer]]></synonym>
+<synonym IsExactMatch="false"><![CDATA[imágenes]]></synonym>
+<synonym IsExactMatch="false"><![CDATA[imajenes]]></synonym>
+<synonym IsExactMatch="false"><![CDATA[fotografias]]></synonym>
+</IncludeSynonyms>
+<ExcludeSynonyms><synonym IsExactMatch="false"><![CDATA[piel]]></synonym></ExcludeSynonyms>
+<CategoryDisplay>
+<![CDATA[
+<div class="managed list">
+<ul>
+<li class="general-list-item general list-item">
+<!-- cgvSnListItemGeneral -->
+<!-- Image -->
+<!-- End Image -->
+<div class="title-and-desc title desc container"><a class="title" href="http://visualsonline.cancer.gov/">Visuals Online</a><!-- start description -->
+<div class="description"><p class="body">Base de datos del NCI con fotografías de médicos y científicos dedicados a la investigación del cáncer e imágenes de tratamientos de pacientes con cáncer. También se encuentran imágenes biomédicas y de ciencias, y fotos de los directores y el personal del NCI.</p></div><!-- end description --></div><!-- end title & desc container -->
+</li></ul>
+</div>
+
+]]>
+</CategoryDisplay>
+</cde:BestBetsCategory>	

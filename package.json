@@ -1,0 +1,42 @@
+{
+  "name": "bestbets-loader",
+  "version": "1.0.0",
+  "description": "Loader for BestBets API",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "coverageDirectory": "coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nciocpl/bestbets-loader.git"
+  },
+  "author": "Bryan Pizzillo",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/nciocpl/bestbets-loader/issues"
+  },
+  "homepage": "https://github.com/nciocpl/bestbets-loader#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cde-published-content-listing": "git+https://github.com/NCIOCPL/cde-published-content-listing.git#v1.0.1",
+    "config": "^1.30.0",
+    "elastic-tools": "git+https://github.com/nciocpl/elastic-tools.git#v1.1.0",
+    "elasticsearch": "^15.0.0",
+    "html-entities": "^1.2.1",
+    "loader-pipeline": "git+https://github.com/nciocpl/loader-pipeline.git#v1.1.0",
+    "winston": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^23.1.2",
+    "@types/nock": "^9.3.0",
+    "@types/node": "^10.3.6",
+    "jest": "^23.2.0",
+    "nock": "^9.3.3",
+    "winston-null-transport": "git+https://github.com/NCIOCPL/winston-null-transport.git#1.0.0"
+  }
+}

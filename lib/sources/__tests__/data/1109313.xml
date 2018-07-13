@@ -1,0 +1,29 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<cde:BestBetsCategory xsi:schemaLocation="http://www.example.org/CDESchema CDESchema.xsd" xmlns:cde="http://www.example.org/CDESchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<CategoryId>
+1109313
+</CategoryId>
+<CategoryName><![CDATA[Mantle Cell Lymphoma]]></CategoryName>
+<CategoryWeight>300</CategoryWeight>
+<IsExactMatch>false</IsExactMatch>
+<Language>en</Language>
+<Display>true</Display>
+<IncludeSynonyms></IncludeSynonyms>
+<ExcludeSynonyms></ExcludeSynonyms>
+<CategoryDisplay>
+<![CDATA[
+<div class="managed list">
+<ul>
+<li class="general-list-item general list-item">
+<!-- cgvSnListItemGeneral -->
+<!-- Image -->
+<!-- End Image -->
+<div class="title-and-desc title desc container"><a class="title" href="/types/lymphoma/patient/adult-nhl-treatment-pdq">Adult Non-Hodgkin Lymphoma Treatment (PDQ®)–Patient Version</a><!-- start description -->
+<div class="description"><p class="body">Non-Hodgkin lymphoma (NHL) options include chemotherapy, radiation, targeted therapy, plasmapheresis, surveillance, stem cell transplant, and surgery. Learn more about types of NHL and treatments in this expert-reviewed summary.</p></div><!-- end description --></div><!-- end title & desc container -->
+</li></ul>
+</div>
+
+]]>
+</CategoryDisplay>
+</cde:BestBetsCategory>	

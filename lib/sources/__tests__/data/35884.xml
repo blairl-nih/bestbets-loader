@@ -1,0 +1,35 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<cde:BestBetsCategory xsi:schemaLocation="http://www.example.org/CDESchema CDESchema.xsd" xmlns:cde="http://www.example.org/CDESchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<CategoryId>
+35884
+</CategoryId>
+<CategoryName><![CDATA[Tobacco Control]]></CategoryName>
+<CategoryWeight>110</CategoryWeight>
+<IsExactMatch>false</IsExactMatch>
+<Language>en</Language>
+<Display>true</Display>
+<IncludeSynonyms></IncludeSynonyms>
+<ExcludeSynonyms><synonym IsExactMatch="false"><![CDATA[monograph]]></synonym><synonym IsExactMatch="false"><![CDATA[Branch]]></synonym></ExcludeSynonyms>
+<CategoryDisplay>
+<![CDATA[
+<div class="managed list">
+<ul>
+<li class="general-list-item general list-item">
+<!-- cgvSnListItemGeneral -->
+<!-- Image -->
+<!-- End Image -->
+<div class="title-and-desc title desc container"><a class="title" href="https://cancercontrol.cancer.gov/brp/tcrb/monographs/">Tobacco Control Monograph Series</a><!-- start description -->
+<div class="description"><p class="body">NCI established the Tobacco Control Monograph series in 1991 to provide ongoing and timely information about emerging public health issues in smoking and tobacco use control.</p></div><!-- end description --></div><!-- end title & desc container -->
+</li><li class="general-list-item general list-item">
+<!-- cgvSnListItemGeneral -->
+<!-- Image -->
+<!-- End Image -->
+<div class="title-and-desc title desc container"><a class="title" href="http://cancercontrol.cancer.gov/brp/tcrb/">Tobacco Control Research Branch</a><!-- start description -->
+<div class="description"><p class="body">TCRB, within NCI's Division of Cancer Control and Population Sciences, leads and collaborates on research and disseminates evidence-based findings to prevent, treat, and control tobacco use.</p></div><!-- end description --></div><!-- end title & desc container -->
+</li></ul>
+</div>
+
+]]>
+</CategoryDisplay>
+</cde:BestBetsCategory>	

@@ -1,0 +1,27 @@
+{   
+    "logging": {
+        "level": "debug"
+    },
+    "pipeline": { 
+        "transformers": [
+            {
+                "module": "./lib/transformers/category-to-match-transformer",
+                "config": {
+                    "eshosts": [ "http://admin:passwd3@ncias-d1592-v.nci.nih.gov:9400" ],
+                    "settingsPath": "es-mappings/settings.json",
+                    "analyzer": "nostem"
+                }
+            }
+        ],
+        "loader": {
+            "module": "./lib/loaders/elastic-bestbets-loader",
+            "config": {
+               "eshosts": [ "http://admin:passwd3@ncias-d1592-v.nci.nih.gov:9400" ],
+               "daysToKeep": 10,               
+               "aliasName": "bestbets_v1",
+               "mappingPath": "es-mappings/mappings.json",
+               "settingsPath": "es-mappings/settings.json"
+            }
+        }
+    }
+}

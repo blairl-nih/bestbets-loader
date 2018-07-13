@@ -1,0 +1,33 @@
+{
+    "mappings": {
+        "synonyms": {
+            "properties": {
+                "category": {
+                    "type": "string",
+                    "analyzer": "nostem"
+                },
+                "contentid": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "is_exact": {
+                    "type": "boolean"
+                },
+                "is_negated": {
+                    "type": "boolean"
+                },
+                "language": {
+                    "type": "string",
+                    "index": "not_analyzed"
+                },
+                "synonym": {
+                    "type": "string",
+                    "analyzer": "nostem"
+                },
+                "tokencount": {
+                    "type": "integer"
+                }
+            }
+        }
+    }
+}
