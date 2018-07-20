@@ -1,0 +1,11 @@
+{ "pipeline":
+	{ "source":
+		{ "config":
+			{"hostname": "BBSOURCEHOST"}
+		},
+		
+	"loader": 
+		{ "config":
+			{"aliasName": "BBALIAS"}
+		}
+}}
