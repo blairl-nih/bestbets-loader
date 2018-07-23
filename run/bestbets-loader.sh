@@ -61,7 +61,7 @@ function email_notification
 
 
 nvm use 8
-cd /home/nutch/bestbets_loader
+cd /home/nutch/bestbets-loader
 node index.js
 
 
@@ -77,36 +77,3 @@ fi
 logger "INFO: bestbets loader : End"
 
 exit 0
-
-    "logging": {
-        "level": "info"
-    },
-    "pipeline": { 
-        "source": {
-            "module": "./lib/sources/cde-bestbets-source",
-            "config": {
-                "hostname": "www.cancer.gov"
-            }
-        },
-        "transformers": [
-            {
-                "module": "./lib/transformers/category-to-match-transformer",
-                "config": {
-                    "eshosts": [ "http://ncias-d1592-v.nci.nih.gov:9200" ],
-                    "settingsPath": "es-mappings/settings.json",
-                    "analyzer": "nostem"
-                }
-            }
-        ],
-        "loader": {
-            "module": "./lib/loaders/elastic-bestbets-loader",
-            "config": {
-               "eshosts": [ "http://ncias-d1592-v.nci.nih.gov:9200" ],
-               "daysToKeep": 3,               
-               "aliasName": "bestbets_v1",
-               "mappingPath": "es-mappings/mappings.json",
-               "settingsPath": "es-mappings/settings.json"
-            }
-        }
-    }
-}
