@@ -61,7 +61,6 @@ function email_notification
 
 
 nvm use 8
-cd /home/nutch/bestbets-loader
 node index.js
 
 
