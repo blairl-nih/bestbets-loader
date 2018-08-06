@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/nciocpl/bestbets-loader#readme",
   "dependencies": {
+    "agentkeepalive": "^3.5.1",
     "axios": "^0.18.0",
     "cde-published-content-listing": "git+https://github.com/NCIOCPL/cde-published-content-listing.git#v1.0.1",
     "config": "^1.30.0",

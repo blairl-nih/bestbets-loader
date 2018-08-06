@@ -8,6 +8,7 @@
             "config": {
                 "hostname": "www.cancer.gov"
             }
+            //"socketLimit": 80
         },
         "transformers": [
             {
@@ -17,6 +18,7 @@
                     "settingsPath": "es-mappings/settings.json",
                     "analyzer": "nostem"
                 }
+                //"socketLimit": 80
             }
         ],
         "loader": {
@@ -28,6 +30,7 @@
                "mappingPath": "es-mappings/mappings.json",
                "settingsPath": "es-mappings/settings.json"
             }
+            //"socketLimit": 80
         }
     }
 }
