@@ -1,6 +1,6 @@
 {
   "name": "bestbets-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loader for BestBets API",
   "main": "index.js",
   "scripts": {
