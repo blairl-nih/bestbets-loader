@@ -1,14 +1,18 @@
-{   
+{
     "logging": {
         "level": "info"
     },
-    "pipeline": { 
+    "pipeline": {
         "source": {
-            "module": "./lib/sources/cde-bestbets-source",
-            "config": {
-                "hostname": "www.cancer.gov"
-            }
-            //"socketLimit": 80
+          "module": "./lib/sources/github-bestbets-source",
+          "config": {
+            "repoUrl": "https://github.com/nciocpl/bestbets-content",
+            "resourcesPath": "/content",
+            //"authentication": {
+            //    "type": "token",
+            //    "token": "SECRET"
+            //}
+          }
         },
         "transformers": [
             {
@@ -25,7 +29,7 @@
             "module": "./lib/loaders/elastic-bestbets-loader",
             "config": {
                "eshosts": [ "http://localhost:9200" ],
-               "daysToKeep": 10,               
+               "daysToKeep": 10,
                "aliasName": "bestbets_v1",
                "mappingPath": "es-mappings/mappings.json",
                "settingsPath": "es-mappings/settings.json"

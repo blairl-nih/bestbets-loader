@@ -1,0 +1,43 @@
+{
+  "categoryID": "431121",
+  "categoryName": "Fotos de cáncer",
+  "categoryWeight": 30,
+  "display": true,
+  "excludeSynonyms": [{
+    "isExactMatch": false,
+    "name": "piel"
+  }],
+  "includeSynonyms": [{
+    "isExactMatch": false,
+    "name": "fotos"
+  }, {
+    "isExactMatch": false,
+    "name": "imagenes"
+  }, {
+    "isExactMatch": true,
+    "name": "fotos de cancer"
+  }, {
+    "isExactMatch": true,
+    "name": "imagenes de cancer"
+  }, {
+    "isExactMatch": true,
+    "name": "imágenes de cáncer"
+  }, {
+    "isExactMatch": true,
+    "name": "imagenes de cáncer"
+  }, {
+    "isExactMatch": true,
+    "name": "imágenes de cancer"
+  }, {
+    "isExactMatch": false,
+    "name": "imágenes"
+  }, {
+    "isExactMatch": false,
+    "name": "imajenes"
+  }, {
+    "isExactMatch": false,
+    "name": "fotografias"
+  }],
+  "isExactMatch": true,
+  "language": "es"
+}

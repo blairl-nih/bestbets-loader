@@ -1,0 +1,19 @@
+{
+  "categoryID": "35884",
+  "categoryName": "Tobacco Control",
+  "categoryWeight": 110,
+  "isExactMatch": false,
+  "language": "en",
+  "display": true,
+  "includeSynonyms": [],
+  "excludeSynonyms": [
+    {
+      "name": "monograph",
+      "isExactMatch": false
+    },
+    {
+      "name": "Branch",
+      "isExactMatch": false
+    }
+  ]
+}

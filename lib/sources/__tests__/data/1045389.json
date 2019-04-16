@@ -1,0 +1,13 @@
+{
+  "categoryID": "1045389",
+  "categoryName": "Cancer Research Ideas",
+  "categoryWeight": 100,
+  "display": true,
+  "excludeSynonyms": [],
+  "includeSynonyms": [{
+    "isExactMatch": false,
+    "name": "Clinical Trial Ideas"
+  }],
+  "isExactMatch": false,
+  "language": "en"
+}

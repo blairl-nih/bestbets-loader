@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/nciocpl/bestbets-loader#readme",
   "dependencies": {
+    "@octokit/rest": "^16.20.0",
     "agentkeepalive": "^3.5.1",
     "axios": "^0.18.0",
     "cde-published-content-listing": "git+https://github.com/NCIOCPL/cde-published-content-listing.git#v1.0.1",
@@ -30,6 +31,7 @@
     "elasticsearch": "^15.0.0",
     "html-entities": "^1.2.1",
     "loader-pipeline": "git+https://github.com/nciocpl/loader-pipeline.git#v1.1.0",
+    "parse-github-repo-url": "^1.4.1",
     "winston": "^3.0.0"
   },
   "devDependencies": {

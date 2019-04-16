@@ -1,0 +1,34 @@
+[
+  {
+    "name": "1045389.xml",
+    "path": "content/1045389.xml",
+    "sha": "ae886e7ba392bb29f43d62faee40320dabe7c98a",
+    "size": 1370,
+    "url": "https://api.github.com/repos/NCIOCPL/bestbets-content/contents/content/1045389.xml?ref=master",
+    "html_url": "https://github.com/NCIOCPL/bestbets-content/blob/master/content/1045389.xml",
+    "git_url": "https://api.github.com/repos/NCIOCPL/bestbets-content/git/blobs/ae886e7ba392bb29f43d62faee40320dabe7c98a",
+    "download_url": "https://raw.githubusercontent.com/NCIOCPL/bestbets-content/master/content/1045389.xml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/NCIOCPL/bestbets-content/contents/content/1045389.xml?ref=master",
+      "git": "https://api.github.com/repos/NCIOCPL/bestbets-content/git/blobs/ae886e7ba392bb29f43d62faee40320dabe7c98a",
+      "html": "https://github.com/NCIOCPL/bestbets-content/blob/master/content/1045389.xml"
+    }
+  },
+  {
+    "name": "1109313.xml",
+    "path": "content/1109313.xml",
+    "sha": "f87a3044414c7975a77c87a3062a03508dde9702",
+    "size": 1317,
+    "url": "https://api.github.com/repos/NCIOCPL/bestbets-content/contents/content/1109313.xml?ref=master",
+    "html_url": "https://github.com/NCIOCPL/bestbets-content/blob/master/content/1109313.xml",
+    "git_url": "https://api.github.com/repos/NCIOCPL/bestbets-content/git/blobs/f87a3044414c7975a77c87a3062a03508dde9702",
+    "download_url": "https://raw.githubusercontent.com/NCIOCPL/bestbets-content/master/content/1109313.xml",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/NCIOCPL/bestbets-content/contents/content/1109313.xml?ref=master",
+      "git": "https://api.github.com/repos/NCIOCPL/bestbets-content/git/blobs/f87a3044414c7975a77c87a3062a03508dde9702",
+      "html": "https://github.com/NCIOCPL/bestbets-content/blob/master/content/1109313.xml"
+    }
+  }
+]
