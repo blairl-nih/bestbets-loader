@@ -15,5 +15,6 @@
       "name": "Branch",
       "isExactMatch": false
     }
-  ]
+  ],
+  "categoryDisplay": "<div class=\"managed list\"><ul><li class=\"general-list-item general list-item\"><!-- cgvSnListItemGeneral --><!-- Image --><!-- End Image --><div class=\"title-and-desc title desc container\"><a class=\"title\" href=\"https://cancercontrol.cancer.gov/brp/tcrb/monographs/\">Tobacco Control Monograph Series</a><!-- start description --><div class=\"description\"><p class=\"body\">NCI established the Tobacco Control Monograph series in 1991 to provide ongoing and timely information about emerging public health issues in smoking and tobacco use control.</p></div><!-- end description --></div><!-- end title & desc container --></li><li class=\"general-list-item general list-item\"><!-- cgvSnListItemGeneral --><!-- Image --><!-- End Image --><div class=\"title-and-desc title desc container\"><a class=\"title\" href=\"http://cancercontrol.cancer.gov/brp/tcrb/\">Tobacco Control Research Branch</a><!-- start description --><div class=\"description\"><p class=\"body\">TCRB, within NCI's Division of Cancer Control and Population Sciences, leads and collaborates on research and disseminates evidence-based findings to prevent, treat, and control tobacco use.</p></div><!-- end description --></div><!-- end title & desc container --></li></ul></div>"
 }

@@ -1,33 +1,42 @@
 {
-    "mappings": {
-        "synonyms": {
-            "properties": {
-                "category": {
-                    "type": "string",
-                    "analyzer": "nostem"
-                },
-                "contentid": {
-                    "type": "string",
-                    "index": "not_analyzed"
-                },
-                "is_exact": {
-                    "type": "boolean"
-                },
-                "is_negated": {
-                    "type": "boolean"
-                },
-                "language": {
-                    "type": "string",
-                    "index": "not_analyzed"
-                },
-                "synonym": {
-                    "type": "string",
-                    "analyzer": "nostem"
-                },
-                "tokencount": {
-                    "type": "integer"
-                }
-            }
+  "mappings": {
+    "synonyms": {
+      "properties": {
+        "category": {
+          "type": "text",
+          "analyzer": "nostem"
+        },
+        "contentid": {
+          "type": "keyword"
+        },
+        "is_exact": {
+          "type": "boolean"
+        },
+        "is_negated": {
+          "type": "boolean"
+        },
+        "language": {
+          "type": "keyword"
+        },
+        "synonym": {
+          "type": "text",
+          "analyzer": "nostem"
+        },
+        "tokencount": {
+          "type": "integer"
         }
+      }
+    },
+    "categorydisplay": {
+      "properties": {
+        "contentid": {
+          "type": "keyword"
+        },
+        "content": {
+          "type": "text",
+          "index": "false"
+        }
+      }
     }
+  }
 }

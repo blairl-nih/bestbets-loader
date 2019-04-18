@@ -6,5 +6,6 @@
   "excludeSynonyms": [],
   "includeSynonyms": [],
   "isExactMatch": false,
-  "language": "en"
+  "language": "en",
+  "categoryDisplay": "<div class=\"managed list\"><ul><li class=\"general-list-item general list-item\"><!-- cgvSnListItemGeneral --><!-- Image --><!-- End Image --><div class=\"title-and-desc title desc container\"><a class=\"title\" href=\"/types/lymphoma/patient/adult-nhl-treatment-pdq\">Adult Non-Hodgkin Lymphoma Treatment (PDQ®)–Patient Version</a><!-- start description --><div class=\"description\"><p class=\"body\">Non-Hodgkin lymphoma (NHL) options include chemotherapy, radiation, targeted therapy, plasmapheresis, surveillance, stem cell transplant, and surgery. Learn more about types of NHL and treatments in this expert-reviewed summary.</p></div><!-- end description --></div><!-- end title & desc container --></li></ul></div>"
 }

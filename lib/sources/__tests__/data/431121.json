@@ -39,5 +39,6 @@
     "name": "fotografias"
   }],
   "isExactMatch": true,
-  "language": "es"
+  "language": "es",
+  "categoryDisplay": "<div class=\"managed list\"><ul><li class=\"general-list-item general list-item\"><!-- cgvSnListItemGeneral --><!-- Image --><!-- End Image --><div class=\"title-and-desc title desc container\"><a class=\"title\" href=\"http://visualsonline.cancer.gov/\">Visuals Online</a><!-- start description --><div class=\"description\"><p class=\"body\">Base de datos del NCI con fotografías de médicos y científicos dedicados a la investigación del cáncer e imágenes de tratamientos de pacientes con cáncer. También se encuentran imágenes biomédicas y de ciencias, y fotos de los directores y el personal del NCI.</p></div><!-- end description --></div><!-- end title & desc container --></li></ul></div>"
 }
