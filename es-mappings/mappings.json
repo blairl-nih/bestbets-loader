@@ -32,6 +32,14 @@
         "contentid": {
           "type": "keyword"
         },
+        "name": {
+          "type": "text",
+          "index": "false"
+        },
+        "weight": {
+          "type": "integer",
+          "index": "false"
+        },
         "content": {
           "type": "text",
           "index": "false"
