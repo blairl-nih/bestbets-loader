@@ -1,26 +1,30 @@
 {
     "settings": {
         "analysis": {
+            "filter": {
+              "english_stop" : {
+                "type": "stop",
+                "stopwords": ["a", "an", "and", "are", "as", "at", "be", "but", "by",
+                    "for", "if", "in", "into", "is", "it",
+                    "not", "of", "on", "or", "such",
+                    "that", "the", "their", "then", "there", "these",
+                    "they", "this", "to", "was", "will", "with"
+                ]
+              },
+              "english_stemmer" : {
+                "type": "stemmer",
+                "language": "minimal_english"
+              }
+            },
             "analyzer": {
                 "nostem": {
                     "type": "custom",
                     "tokenizer": "standard",
                     "filter": [
                         "lowercase",
-                        {
-                            "type": "stop",
-                            "stopwords": ["a", "an", "and", "are", "as", "at", "be", "but", "by",
-                                "for", "if", "in", "into", "is", "it",
-                                "not", "of", "on", "or", "such",
-                                "that", "the", "their", "then", "there", "these",
-                                "they", "this", "to", "was", "will", "with"
-                            ]
-                        },
+                        "english_stop",
                         "unique",
-                        {
-                            "type": "stemmer",
-                            "language": "minimal_english"
-                        }
+                        "english_stemmer"
                     ]
                 }
             }
